@@ -1,0 +1,129 @@
+/******************************/
+/*          footer            */
+/*****************************/
+
+#footer {
+    width : 100%;
+    background-color : RGB(86,115,154);
+    
+}
+
+
+
+
+/*******************************/
+/*      button                 */
+/******************************/
+
+.buttonContact
+{
+	display: inline-block;
+	padding: 1.3em 3em;
+	background: #1B9772;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+	-o-transition: opacity 0.25s ease-in-out;
+	-ms-transition: opacity 0.25s ease-in-out;
+	transition: opacity 0.25s ease-in-out;
+	letter-spacing: 0.20em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #FFF;
+}
+
+.buttonContact:hover
+{
+}
+
+.buttonContact:active
+{
+}
+
+.buttonContact-big
+{
+	padding: 1.6em 4em;
+	font-size: 1.4em;
+	font-weight: 900;
+}
+
+
+
+
+
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+#copyright
+{
+	overflow: hidden;
+	padding: 5em 0em;
+	border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+#copyright p
+{
+	letter-spacing: 0.20em;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.80em;
+	color: rgba(255,255,255,0.3);
+}
+
+#copyright a
+{
+	text-decoration: none;
+	color: rgba(255,255,255,0.6);
+}
+
+
+
+
+
+
+/**********************************************************************************/
+/*                              extra                                             */
+/**********************************************************************************/
+
+#extra
+{
+    overflow: hidden; 
+	margin: 0em auto 0em auto;
+	padding: 5em 0em 5em 0em;
+	text-align: center;
+    color: #BBBBBB;
+}
+
+#extra h2
+{
+	margin: 0em;
+	padding: 0em;
+	font-weight: 400;
+	font-size: 2.4em;
+	color: white;
+}
+
+#extra span
+{
+	display: block;
+	padding-top: 0.20em;
+	margin-bottom: 3em;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	color: #EEEEEE;
+}
+
+#extra a
+{
+    text-decoration : none;
+    font-weight : bold;
+    color: white;
+}
+
+
+#extra .buttonContact
+{
+	margin-top: 2em;
+}
